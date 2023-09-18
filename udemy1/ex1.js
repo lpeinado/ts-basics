@@ -16,6 +16,7 @@ var mySelf = {
 // console.log(mySelf);
 (_a = mySelf.hobbies) === null || _a === void 0 ? void 0 : _a.push("Reading");
 mySelf.role = [2, "author"];
+mySelf.role.push(3); // TS doesn't provide support when pushing :-(
 // for (const hobby in mySelf.hobbies) {
 //     console.log(hobby.toUpperCase());
 // }

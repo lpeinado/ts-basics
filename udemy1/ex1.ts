@@ -1,5 +1,5 @@
 type Ras = string | number;
-type Role = [number, string];
+type Role = [number, string] ;
 
 enum RoleEnum { ADMIN="MARIA", READ_ONLY=3, AUTHOR };
 
@@ -23,6 +23,7 @@ const mySelf: person = {
 
 mySelf.hobbies?.push("Reading");
 mySelf.role = [2, "author"];
+mySelf.role.push(3); // TS doesn't provide support when pushing :-(
 
 // for (const hobby in mySelf.hobbies) {
 //     console.log(hobby.toUpperCase());
