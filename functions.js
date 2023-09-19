@@ -35,7 +35,7 @@ var introduceYourself = function (user) {
 };
 exports.introduceYourself = introduceYourself;
 function getName(_a) {
-    var string = _a.firstName, string = _a.lastName;
+    var firstName = _a.firstName, lastName = _a.lastName;
     return "".concat(firstName, " ").concat(lastName);
 }
 exports.getName = getName;
