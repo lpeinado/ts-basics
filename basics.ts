@@ -45,3 +45,8 @@ function greet(person, date) {
   }
 
   greet("Brendan","Rastafari");
+
+
+[1,2,3].forEach(v => console.log(v))
+const out = [4, 5, 6].map(v => v*3);
+console.log(out);

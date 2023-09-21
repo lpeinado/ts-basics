@@ -35,3 +35,6 @@ function greet(person, date) {
     console.log("Hello ".concat(person, ", today is ").concat(date, "!"));
 }
 greet("Brendan", "Rastafari");
+[1, 2, 3].forEach(function (v) { return console.log(v); });
+var out = [4, 5, 6].map(function (v) { return v * 3; });
+console.log(out);
