@@ -26,6 +26,10 @@ export const introduceYourself = (user: string, ...names: string[]): string => {
     return `My name is ${user} and wanna say hello to ${names.join(" ")}`;
 }
 
-export function getName({firstName, lastName}): string {
+type FullName = {
+    firstName:string,
+    lastName: string
+}
+export function getName({firstName, lastName}: FullName): string {
     return `${firstName} ${lastName}`;
 }
